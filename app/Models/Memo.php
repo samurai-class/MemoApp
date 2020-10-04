@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Memo extends Model
 {
     //use HasFactory;
-    protected $fillables=['content'];
+    protected $fillable=['content'];
 }
